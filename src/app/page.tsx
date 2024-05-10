@@ -91,12 +91,12 @@ export default function Home() {
 
           <Image
             src={Raha}
-            width={200}
-            height={300}
+            width={380}
+            height={400}
             alt="Raha Pay Logo"
-            className=" lg:mt-9"
+            className=" lg:mt-4"
           />
-          <div className="lg:w-[300px]"></div>
+          <div className="lg:w-[250px]"></div>
           <div className="flex justify-between icon1">
             <div className="lg:w-[26vw] w-[7vw]"></div>
             <div>
