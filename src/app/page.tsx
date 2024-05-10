@@ -28,12 +28,12 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className="items-center bg-image justify-center m-0 h-[100vh] w-[100vw] overflow-y-hidden">
+      <div className="items-center bg-image justify-center m-0 h-[100vh] w-[100vw] overflow-hidden absolute">
         <div className="flex justify-center items-center">
-          <div className="bg-white p-2 w-full flex justify-between  items-center md:mt-5 lg:mt-3 lg:rounded-2xl shadow-lg lg:w-2/3 md:w-2/3 h-9">
+          <div className="bg-[#CBC5E0] p-2 w-full flex justify-between  items-center md:mt-5 lg:mt-3 lg:rounded-2xl shadow-lg lg:w-2/3 md:w-2/3 h-9">
             <Image src={logo} width={90} height={90} alt="Raha Pay Logo" />
-            <button className="bg-[#4C2BD3] text-white lg:py-1 lg:px-4 rounded focus:outline-none focus:shadow-outline h-6 font-poppins text-[8px] font-extrabold leading-16.35 text-left">
-              Join the wait list Community
+            <button className="bg-[#4C2BD3] text-white lg:py-1 lg:px-4 rounded focus:outline-none focus:shadow-outline h-6 font-poppins text-[7px] font-extrabold leading-16.35 text-left">
+              JOIN THE WAITLIST COMMUNITY
             </button>
           </div>
         </div>
@@ -52,10 +52,10 @@ export default function Home() {
         <div className="flex justify-center items-center mt-6">
           <input
             type="text"
-            className="lg:px-2 py-0 mr-[-4] rounded-tl-lg rounded-bl-lg border border-gray-300 focus:outline-none w-52 h-8 font-poppins text-[10px] font-normal leading-none"
-            placeholder="email address"
+            className="lg:px-2 py-0 mr-[-4] rounded-tl-[4px] rounded-bl-[4px] border border-gray-300 focus:outline-none w-52 h-8 font-poppins text-[10px] font-normal leading-none"
+            placeholder="Email address"
           />
-          <button className="lg:px-4 py-2 p-6  rounded-tr-lg rounded-br-lg  focus:outline-none w-24 h-8 rounded-l-lg font-poppins text-[10px] font-bold leading-none text-left text-white bg-[#4C2BD3]">
+          <button className="lg:px-4 py-2 p-6  rounded-tr-[4px] rounded-br-[4px]  focus:outline-none w-24 h-8 rounded-l-lg font-poppins text-[10px] font-bold leading-none text-left text-white bg-[#4C2BD3]">
             Subscribe
           </button>
         </div>
@@ -91,37 +91,37 @@ export default function Home() {
 
           <Image
             src={Raha}
-            width={390}
-            height={490}
+            width={200}
+            height={300}
             alt="Raha Pay Logo"
-            className=" lg:mt-2"
+            className=" lg:mt-9"
           />
-          <div className="w-64"></div>
+          <div className="lg:w-[300px]"></div>
           <div className="flex justify-between icon1">
             <div className="lg:w-[26vw] w-[7vw]"></div>
             <div>
-              <Image src={icon1} width={70} height={70} alt="line" />
+              <Image src={icon1} width={70} height={70} alt="icon1" />
             </div>
             <div className="lg:w-[26vw] w-[7vw]"></div>
           </div>
           <div className="flex justify-between icon2">
             <div className="lg:w-[31vw] w-[4vw]"></div>
             <div>
-              <Image src={icon2} width={70} height={70} alt="line" />
+              <Image src={icon2} width={70} height={70} alt="icon2" />
             </div>
             <div className="w-[45.9vw]"></div>
           </div>
           <div className="flex justify-between icon3">
             <div className="w-[64vw]"></div>
             <div>
-              <Image src={icon3} width={70} height={70} alt="line" />
+              <Image src={icon3} width={70} height={70} alt="icon3" />
             </div>
             <div className="w-[45.9vw]"></div>
           </div>
           <div className="flex justify-between icon4">
             <div className="w-[60vw]"></div>
             <div>
-              <Image src={icon4} width={70} height={70} alt="line" />
+              <Image src={icon4} width={70} height={70} alt="icon4" />
             </div>
             <div className="w-[45.9vw]"></div>
           </div>
