@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,9 +25,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #5136C1}
+  background: #5136C1;
 
-  
+} 
 
 @layer utilities {
   .text-balance {
@@ -28,108 +35,41 @@ body {
   }
 }
 
-
-.jn-button{
-  width: 243px;
-  height: 37px;
-  border-radius: 8px;
+.bg-image{
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center;
 }
 
-.t-nav{
-width: 892px;
-height: 61px;
-padding: 12px 16px 12px 16px;
-
-}
-
-
-.icon{
-  height: 19px; 
-  color: #3b5998;
-  
-}
-
-.footer-text{
-  font-size: 7px;
-  
-}
-
-.pg-body{
-  background-color: #5136C1;
-}
-
-
-
-.i-text{
-  height: 6px;
-}
-
-
-
-
-
-
-.nav-bt{
- max-width: 243px;
- height: 37px;
- background-color: #5136C1;
- font-family: Poppins;
-font-size: 11.68px;
-font-weight: 900;
-line-height: 16.35px;
-text-align: left;
-padding: 5px;
-border-radius: 8px;
-}
-
-w-text{
-width: 646px;
-height: 320.78px;
-padding: 10px, 0px, 10px, 0px;
-position: relative;
-}
-
-w-text-p{
-  font-family: Inter;
-  size: 3rem;
-  font-weight: 600;
-  line-height: 72px;
-  text-align: center;
-}
-
-.s-text{
-width: 250px;
-height: 35px;
-top: 277.13px;
-left: 105.88px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 13.62px;
-font-weight: 400;
-line-height: 19.07px;
-text-align: left;
-}
-
-.s-btn{
-width: 110;
-height: 35px;
-
-border-radius: 0px 7.78px 7.78px 0px;
-font-family: Poppins;
-font-size: 11.68px;
-font-weight: 900;
-line-height: 16.35px;
-text-align: left;
-color: #FFFFFF;
-
-}
 
 .line{
   position: absolute;
+  top: 125px;
+  left: 30px;
+}
 
-  top: 110px;
-  
+.icon1{
+  position: absolute;
+  top: 270px;
+  left: 30px;
+}
+
+.icon2{
+  position: absolute;
+  top: 390px;
+  left: 30px;
+}
+
+.icon3{
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+
+.icon4{
+  position: absolute;
+  top: 390px;
+  left: 35px;
 }
 
 
@@ -137,8 +77,33 @@ color: #FFFFFF;
 @media (max-width: 767px) {
   .line{
     top: 117px;
+    left: 2px;
     margin-left: 20px;
     
+}
+
+.icon1{
+  position: absolute;
+  top: 300px;
+  left: 5px;
+}
+
+.icon2{
+  position: absolute;
+  top: 430px;
+  left: 30px;
+}
+
+.icon3{
+  position: absolute;
+  top: 310px;
+  left: 85px;
+}
+
+.icon4{
+  position: absolute;
+  top: 440px;
+  left: 90px;
 }
 
 .s-text{
@@ -163,35 +128,21 @@ color: #FFFFFF;
 /* For tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .line{
-    left: 117px;
+    left: 15px;
     margin-left: 20px;
     
 }
+
+.icon1{
+  position: absolute;
+  top: 300px;
+  left: 60px;
 }
 
-
-/* .nav{
-width: 892px;
-height: 61px;
-padding: 12px 16px 12px 16px;
-gap: 0px;
-border-radius: 24px 0px 0px 0px;
-justify-content: space-between;
-opacity: 0px;
-
+.icon2{
+  position: absolute;
+  top: 410px;
+  left: 150px;
+}
 }
 
-
-.logo{
-  width: 48px;
-  height: 170px
-}
-
-.w-text{
-width: 646px;
-height: 320.78px;
-padding: 10px 0px 10px 0px;
-gap: 32px;
-opacity: 0px;
-
-} */
