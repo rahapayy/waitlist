@@ -30,29 +30,33 @@ export default function Home() {
       </Head>
       <div className="items-center bg-image justify-center m-0 h-[100vh] w-[100vw] overflow-hidden absolute">
         <div className="flex justify-center items-center">
-          <div className="bg-[#CBC5E0] p-2 w-full flex justify-between  items-center md:mt-5 lg:mt-3 lg:rounded-2xl shadow-lg lg:w-2/3 md:w-2/3 h-9">
-            <Image src={logo} width={90} height={90} alt="Raha Pay Logo" />
-            <button className="bg-[#4C2BD3] text-white lg:py-1 lg:px-4 rounded focus:outline-none focus:shadow-outline h-6 font-poppins text-[7px] font-extrabold leading-16.35 text-left">
+          <div className="bg-[#CBC5E0] p-2 w-full flex justify-between  items-center md:mt-5 lg:mt-9 lg:rounded-2xl shadow-lg lg:w-2/3 md:w-2/3 h-11">
+            <Image src={logo} width={120} height={90} alt="Raha Pay Logo" />
+            <button className="bg-[#4C2BD3] text-white lg:py-1 lg:px-4 rounded focus:outline-none focus:shadow-outline h-7 font-poppins text-[9px] font-extrabold leading-16.35 text-left">
               JOIN THE WAITLIST COMMUNITY
             </button>
           </div>
         </div>
-        <div className="w-text mt-12 text-white">
-          <h2 className="font-inter text-2xl font-semibold leading-16  text-center">
+        <div className="w-text mt-16 text-white">
+          <h2 className="font-inter lg:text-[30px] text-2xl  font-weight-[500] leading-16  text-center">
             Your Financial Future Starts
           </h2>
-          <h2 className="text-3xl text-center text-yellow-500 p-1">Here</h2>
+          <h2 className="lg:text-3xl text-2xl text-center text-[#D9DD2B] font-weight-[600] p-4">
+            Here
+          </h2>
 
-          <p className="w-text-p text-xs text-center pt-2">
+          <p className="w-text-p text-[15px] leading-[20px] text-center pt-2 ">
             Reserve your spot on our wait list for exclusive access to Raha Pay.
-            <br />
+          </p>
+
+          <p className="w-text-p text-[15px] leading-[20px] text-center pt-2 ">
             Join us and reap benefits
           </p>
         </div>
         <div className="flex justify-center items-center mt-6">
           <input
             type="text"
-            className="lg:px-2 py-0 mr-[-4] rounded-tl-[4px] rounded-bl-[4px] border border-gray-300 focus:outline-none w-52 h-8 font-poppins text-[10px] font-normal leading-none"
+            className="px-2 py-0 mr-[-4] rounded-tl-[4px] rounded-bl-[4px] border border-gray-300 focus:outline-none w-60 h-8 font-poppins text-[10px] font-normal leading-none"
             placeholder="Email address"
           />
           <button className="lg:px-4 py-2 p-6  rounded-tr-[4px] rounded-br-[4px]  focus:outline-none w-24 h-8 rounded-l-lg font-poppins text-[10px] font-bold leading-none text-left text-white bg-[#4C2BD3]">
@@ -62,7 +66,7 @@ export default function Home() {
         <div className="flex justify-between line">
           <div className="w-[44vw]"></div>
           <div>
-            <Image src={line} width={90} height={90} alt="line" />
+            <Image src={line} width={125} height={125} alt="line" />
           </div>
           <div className="w-[45.9vw]"></div>
         </div>
@@ -70,7 +74,7 @@ export default function Home() {
         <div className="flex justify-between footer">
           <div className="w-8"></div>
           <div className="pl-0">
-            <div className="flex lg:pl-6 pt-40 mb-3 footer-icons">
+            <div className="flex lg:pl-6 pt-48 mb-5 footer-icons">
               <FontAwesomeIcon
                 icon={faFacebookSquare}
                 className="text-white h-[19px]  pr-4"
@@ -91,12 +95,12 @@ export default function Home() {
 
           <Image
             src={Raha}
-            width={380}
-            height={400}
+            width={496}
+            height={822}
             alt="Raha Pay Logo"
             className=" lg:mt-4"
           />
-          <div className="lg:w-[250px]"></div>
+          <div className="lg:w-[300px]"></div>
           <div className="flex justify-between icon1">
             <div className="lg:w-[26vw] w-[7vw]"></div>
             <div>

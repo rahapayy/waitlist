@@ -44,31 +44,31 @@ body {
 
 .line{
   position: absolute;
-  top: 125px;
-  left: 30px;
+  top: 175px;
+  left: 40px;
 }
 
 .icon1{
   position: absolute;
-  top: 270px;
+  top: 400px;
   left: 30px;
 }
 
 .icon2{
   position: absolute;
-  top: 390px;
+  top: 540px;
   left: 30px;
 }
 
 .icon3{
   position: absolute;
-  top: 280px;
+  top: 400px;
   left: 50px;
 }
 
 .icon4{
   position: absolute;
-  top: 390px;
+  top: 540px;
   left: 35px;
 }
 
@@ -76,7 +76,7 @@ body {
 /* For mobile phones */
 @media (max-width: 767px) {
   .line{
-    top: 117px;
+    top: 143px;
     left: 2px;
     margin-left: 20px;
     
@@ -84,26 +84,26 @@ body {
 
 .icon1{
   position: absolute;
-  top: 300px;
-  left: 5px;
+  top: 400px;
+  left: -40px;
 }
 
 .icon2{
   position: absolute;
-  top: 430px;
-  left: 30px;
+  top: 530px;
+  left: 15px;
 }
 
 .icon3{
   position: absolute;
-  top: 310px;
-  left: 85px;
+  top: 400px;
+  left: 125px;
 }
 
 .icon4{
   position: absolute;
-  top: 440px;
-  left: 90px;
+  top: 530px;
+  left: 100px;
 }
 
 .s-text{
@@ -135,14 +135,14 @@ body {
 
 .icon1{
   position: absolute;
-  top: 300px;
-  left: 60px;
+  top: 420px;
+  left: -70px;
 }
 
 .icon2{
   position: absolute;
-  top: 410px;
-  left: 150px;
+  top: 540px;
+  left: -50px;
 }
 }
 
