@@ -50,8 +50,8 @@ body {
 
 .icon1{
   position: absolute;
-  top: 400px;
-  left: 30px;
+  top: 420px;
+  left: 43.75rem;
 }
 
 .icon2{
@@ -75,17 +75,12 @@ body {
 
 /* For mobile phones */
 @media (max-width: 767px) {
-  .line{
-    top: 143px;
-    left: 2px;
-    margin-left: 20px;
-    
-}
+  
 
 .icon1{
   position: absolute;
   top: 400px;
-  left: -40px;
+  left: 200px;
 }
 
 .icon2{
