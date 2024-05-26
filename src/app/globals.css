@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,16 +25,119 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  background: #5136C1;
+
+} 
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+.bg-image{
+  background-image: url('./background.png');
+  background-size: cover;
+  
+}
+
+
+.line{
+  position: absolute;
+  top: 175px;
+  left: 40px;
+}
+
+.icon1{
+  position: absolute;
+  top: 420px;
+  left: 43.75rem;
+}
+
+.icon2{
+  position: absolute;
+  top: 540px;
+  left: 30px;
+}
+
+.icon3{
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+
+.icon4{
+  position: absolute;
+  top: 540px;
+  left: 35px;
+}
+
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  
+
+.icon1{
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+
+.icon2{
+  position: absolute;
+  top: 530px;
+  left: 15px;
+}
+
+.icon3{
+  position: absolute;
+  top: 400px;
+  left: 125px;
+}
+
+.icon4{
+  position: absolute;
+  top: 530px;
+  left: 100px;
+}
+
+.s-text{
+  width: 150px;
+  left: 50px;
+}
+
+.footer{
+
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.footer-icons{
+  padding-top: 20px;
+  justify-content: center;
+}
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .line{
+    left: 15px;
+    margin-left: 20px;
+    
+}
+
+.icon1{
+  position: absolute;
+  top: 420px;
+  left: -70px;
+}
+
+.icon2{
+  position: absolute;
+  top: 540px;
+  left: -50px;
+}
+}
+
